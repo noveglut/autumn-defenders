@@ -265,3 +265,4 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.833489, -9.680338, 7.697601
 
 [node name="Stairs3" parent="." instance=ExtResource("1_okrnj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.22208, -13.534113, 7.6976013)
+visible = false
