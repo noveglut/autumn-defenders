@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://0o54l6kq4ohd"]
+
+[ext_resource type="Script" uid="uid://c8nvolcv2gv0" path="res://Player/player.gd" id="1_l8h54"]
+[ext_resource type="Script" uid="uid://g65fm7r42ra8" path="res://Player/fpCam.gd" id="2_4ntmi"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_hvfyp"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_l8h54"]
+
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_l8h54")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_hvfyp")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("CapsuleMesh_l8h54")
+
+[node name="Head" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.54336077, 0.012384415)
+script = ExtResource("2_4ntmi")
+
+[node name="PlayerCam" type="Camera3D" parent="Head"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.116939306)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Head"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.5789579)
+shadow_enabled = true
+spot_range = 5.2251353
+spot_angle = 41.839455
