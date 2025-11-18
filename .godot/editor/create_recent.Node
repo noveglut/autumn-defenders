@@ -1,7 +1,8 @@
+Node3D
+OmniLight3D
 SpotLight3D
 DirectionalLight3D
 Camera3D
-Node3D
 MeshInstance3D
 CollisionShape3D
 CharacterBody3D

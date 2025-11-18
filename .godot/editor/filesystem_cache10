@@ -1,11 +1,12 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1763436081
+::res://::1763436272
 icon.svg::CompressedTexture2D::4152953391473375633::1763078560::1763079672::1::::<><><>0<>0<>7633a1d55ea29483a439fa5da0166651<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.s3tc.ctex::
-::res://GLB Models/::1763436110
-House.glb::PackedScene::4059414718261882442::1763436110::1763436114::1::::<><><>0<>0<>92275c95f795b18765b0ddf88b7f5117<>res://.godot/imported/House.glb-c0593e3fdb340070d00bfcb446a4dc05.scn::
+::res://GLB Models/::1763439515
+House.glb::PackedScene::1829323733112810265::1763439515::1763439525::1::::<><><>0<>0<>865ef66d748d8aaba56dac19b5514781<>res://.godot/imported/House.glb-c0593e3fdb340070d00bfcb446a4dc05.scn::
 ::res://Player/::1763432096
 fpCam.gd::GDScript::486959891482745645::1763431451::0::1::::<>Node3D<><>0<>0<><>::
 player.gd::GDScript::209329728177757603::1763431861::0::1::::<>CharacterBody3D<><>0<>0<><>::
 player.tscn::PackedScene::1785496303436562705::1763432096::0::1::::<><><>0<>0<><>::uid://c8nvolcv2gv0::::res://Player/player.gd<>uid://g65fm7r42ra8::::res://Player/fpCam.gd
+::res://Scenery/::1763439496
 ::res://Scenes/::1763082099
 world.tscn::PackedScene::3689749526129399116::1763082099::0::1::::<><><>0<>0<><>::uid://b0fyshfmhk7ib::::res://icon.svg<>uid://0o54l6kq4ohd::::res://Player/player.tscn
